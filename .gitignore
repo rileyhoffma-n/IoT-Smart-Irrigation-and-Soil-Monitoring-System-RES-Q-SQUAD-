@@ -1,0 +1,9 @@
+# KiCad backup/autosave files
+*.lck
+*-backups/
+~*
+*.bak
+
+# Generated files
+gerbers/
+drill/
