@@ -1318,6 +1318,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "DUMMY TEXT FOR MAKING A BRANCH\non github\n"
+		(exclude_from_sim no)
+		(at 229.616 59.182 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe38e651-ee01-4e0f-a420-8233c5dec864")
+	)
 	(junction
 		(at 87.63 50.8)
 		(diameter 0)
