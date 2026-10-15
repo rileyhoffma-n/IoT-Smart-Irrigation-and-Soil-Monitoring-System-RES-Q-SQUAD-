@@ -2309,16 +2309,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 85.09) (xy 168.91 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f3b3316-7410-470c-9c3e-f5f8819f2072")
-	)
-	(wire
-		(pts
 			(xy 142.24 96.52) (xy 147.32 96.52)
 		)
 		(stroke
@@ -3096,30 +3086,6 @@
 		(uuid "e90ce0f3-f666-40ba-a0cc-c4d37752b2e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 98.0537 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "floating"
-		(shape input)
-		(at 168.91 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f1435547-519d-423d-92a8-3afedd03bf1f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2126 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4102,7 +4068,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 158.75 85.09 90)
+		(at 158.75 85.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4133,7 +4099,7 @@
 			)
 		)
 		(property "Footprint" "soil_cap:Untitled"
-			(at 162.56 84.1248 0)
+			(at 154.94 86.0552 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4453,6 +4419,84 @@
 			(project "soil board"
 				(path "/37916b7e-9322-4a41-838c-6f1f6ef59153"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ba1b245-b9f6-4984-9b02-ba59983968de")
+		(property "Reference" "#PWR09"
+			(at 162.56 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e6bfa7b-d446-4ec4-847c-b82c4259616f")
+		)
+		(instances
+			(project "soil board"
+				(path "/37916b7e-9322-4a41-838c-6f1f6ef59153"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
