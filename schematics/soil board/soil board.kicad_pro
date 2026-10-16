@@ -661,7 +661,7 @@
         "uuid": "37916b7e-9322-4a41-838c-6f1f6ef59153"
       }
     ],
-    "used_designators": "U1-3,#PWR1-11,R1-5,J1,H1-6,C_bulk1,C1-5,R1_test1,R2_test1,R3_test1,R4_test1,R_pu_~{RESET}1,C_soil1,Elecctrodes1",
+    "used_designators": "U1-3,#PWR1-11,R1-5,J1-4,H1-6,C_bulk1,C1-5,R1_test1,R2_test1,R3_test1,R4_test1,R_pu_~{RESET}1,C_soil1,Elecctrodes1",
     "variants": []
   },
   "sheets": [
