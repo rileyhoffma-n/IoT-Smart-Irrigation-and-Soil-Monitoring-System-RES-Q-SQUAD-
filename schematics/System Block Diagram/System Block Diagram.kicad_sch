@@ -69,7 +69,7 @@
 	)
 	(rectangle
 		(start 178.816 119.761)
-		(end 195.326 123.571)
+		(end 205.105 123.571)
 		(stroke
 			(width 0)
 			(type default)
@@ -204,8 +204,8 @@
 		(uuid "748a950f-36c0-4293-905e-72112d350b56")
 	)
 	(rectangle
-		(start 197.485 143.764)
-		(end 209.296 148.971)
+		(start 189.611 144.399)
+		(end 201.422 149.606)
 		(stroke
 			(width 0)
 			(type default)
@@ -265,7 +265,7 @@
 		(uuid "7bfdda11-6b25-48ab-a087-cd8c5bd934a0")
 	)
 	(rectangle
-		(start 176.276 117.856)
+		(start 176.276 118.11)
 		(end 215.646 152.781)
 		(stroke
 			(width 0)
@@ -302,8 +302,8 @@
 		(uuid "80eb9fd7-15de-489e-8e45-66113f37b33f")
 	)
 	(rectangle
-		(start 182.626 133.985)
-		(end 192.151 140.97)
+		(start 190.5 129.159)
+		(end 200.025 136.144)
 		(stroke
 			(width 0)
 			(type default)
@@ -314,8 +314,8 @@
 		(uuid "81fe12d2-57e2-47b3-846d-4471000ea53c")
 	)
 	(rectangle
-		(start 182.88 145.034)
-		(end 192.405 147.574)
+		(start 188.722 137.541)
+		(end 201.422 142.621)
 		(stroke
 			(width 0)
 			(type default)
@@ -705,9 +705,9 @@
 		)
 		(uuid "360a8017-b22e-413b-9557-fb352dfc3de9")
 	)
-	(text "Database"
+	(text "Database\n(PostgreSQL)"
 		(exclude_from_sim no)
-		(at 187.706 146.431 0)
+		(at 194.945 140.335 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -807,7 +807,7 @@
 	)
 	(text "Dashboard\nSoftware"
 		(exclude_from_sim no)
-		(at 203.454 146.685 0)
+		(at 195.58 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -815,9 +815,9 @@
 		)
 		(uuid "74107742-d86b-411b-88d4-dd8b9631eb67")
 	)
-	(text "LoRaWAN piHat"
+	(text "LoRaWAN module + piHat"
 		(exclude_from_sim no)
-		(at 187.071 121.666 0)
+		(at 191.77 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -857,7 +857,7 @@
 	)
 	(text "LoRaWAN \nNetwork \nManager"
 		(exclude_from_sim no)
-		(at 187.706 137.541 0)
+		(at 195.58 132.715 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1997,6 +1997,16 @@
 	)
 	(polyline
 		(pts
+			(xy 84.455 116.84) (xy 85.09 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b8d6e8-6d88-4df8-9a40-f70cf42f7afb")
+	)
+	(polyline
+		(pts
 			(xy 92.71 82.677) (xy 91.44 81.407)
 		)
 		(stroke
@@ -2024,6 +2034,16 @@
 			(type default)
 		)
 		(uuid "95b10144-92c1-40f1-a4e7-92796661db2b")
+	)
+	(polyline
+		(pts
+			(xy 83.82 116.205) (xy 84.455 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971adb4e-8b69-4e9b-91c1-a00d937d3f77")
 	)
 	(polyline
 		(pts
