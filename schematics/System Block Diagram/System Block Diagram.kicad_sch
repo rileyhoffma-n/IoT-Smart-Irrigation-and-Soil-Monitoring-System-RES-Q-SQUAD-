@@ -30,9 +30,9 @@
 		(uuid "0e8ea350-0b10-4dcd-af3f-ee8b865613a2")
 	)
 	(arc
-		(start 244.79 20.635)
-		(mid 247.6926 23.1524)
-		(end 247.965 26.985)
+		(start 244.729 32.004)
+		(mid 247.6316 34.5214)
+		(end 247.904 38.354)
 		(stroke
 			(width 0)
 			(type default)
@@ -92,9 +92,9 @@
 		(uuid "248bac94-5467-45a0-99a6-af4da57590d7")
 	)
 	(arc
-		(start 104.14 41.402)
-		(mid 107.4916 44.1054)
-		(end 107.95 48.387)
+		(start 104.394 51.689)
+		(mid 107.7456 54.3924)
+		(end 108.204 58.674)
 		(stroke
 			(width 0)
 			(type default)
@@ -105,8 +105,8 @@
 		(uuid "2d6f9ff8-2731-4fc0-8c6f-5ee0695b12e6")
 	)
 	(rectangle
-		(start 104.14 45.847)
-		(end 104.14 45.847)
+		(start 104.394 56.134)
+		(end 104.394 56.134)
 		(stroke
 			(width 0)
 			(type default)
@@ -117,9 +117,9 @@
 		(uuid "368c84a5-a0e2-4cf4-b4d5-5cd7d6d165a0")
 	)
 	(arc
-		(start 245.425 23.175)
-		(mid 246.4545 23.8645)
-		(end 246.695 25.08)
+		(start 245.364 34.544)
+		(mid 246.3935 35.2335)
+		(end 246.634 36.449)
 		(stroke
 			(width 0)
 			(type default)
@@ -228,9 +228,9 @@
 		(uuid "7a7110cb-60bf-4870-8387-61127b2819a1")
 	)
 	(arc
-		(start 245.425 20)
-		(mid 248.7766 22.7034)
-		(end 249.235 26.985)
+		(start 245.364 31.369)
+		(mid 248.7156 34.0724)
+		(end 249.174 38.354)
 		(stroke
 			(width 0)
 			(type default)
@@ -402,7 +402,7 @@
 		(uuid "c076de2b-9edd-49af-98fa-020eb0d61e75")
 	)
 	(rectangle
-		(start 242.824 24.13)
+		(start 243.205 36.195)
 		(end 244.729 46.99)
 		(stroke
 			(width 0)
@@ -414,7 +414,7 @@
 		(uuid "c1067489-d53a-4828-b578-85ce6894ec8c")
 	)
 	(rectangle
-		(start 102.235 45.847)
+		(start 102.235 56.515)
 		(end 104.14 68.707)
 		(stroke
 			(width 0)
@@ -474,9 +474,9 @@
 		(uuid "d0109271-7d1a-4569-96bf-731c270698c3")
 	)
 	(arc
-		(start 244.79 21.905)
-		(mid 246.9806 23.6014)
-		(end 247.33 26.35)
+		(start 244.729 33.274)
+		(mid 246.9196 34.9704)
+		(end 247.269 37.719)
 		(stroke
 			(width 0)
 			(type default)
@@ -547,9 +547,9 @@
 		(uuid "f16d0653-1087-4679-8668-21bcf75c65a5")
 	)
 	(arc
-		(start 103.505 43.307)
-		(mid 105.6956 45.0034)
-		(end 106.045 47.752)
+		(start 103.759 53.594)
+		(mid 105.9496 55.2904)
+		(end 106.299 58.039)
 		(stroke
 			(width 0)
 			(type default)
@@ -560,9 +560,9 @@
 		(uuid "f71ab6c3-864a-42e9-9489-546ef7144348")
 	)
 	(arc
-		(start 103.505 42.037)
-		(mid 106.4076 44.5544)
-		(end 106.68 48.387)
+		(start 103.759 52.324)
+		(mid 106.6616 54.8414)
+		(end 106.934 58.674)
 		(stroke
 			(width 0)
 			(type default)
@@ -573,9 +573,9 @@
 		(uuid "fd0c2bb9-a98f-4300-a1d4-bb086d39e610")
 	)
 	(arc
-		(start 104.14 44.577)
-		(mid 105.1695 45.2665)
-		(end 105.41 46.482)
+		(start 104.394 54.864)
+		(mid 105.4235 55.5535)
+		(end 105.664 56.769)
 		(stroke
 			(width 0)
 			(type default)
@@ -627,7 +627,7 @@
 	)
 	(text "Sensor Node\n"
 		(exclude_from_sim no)
-		(at 88.138 55.626 0)
+		(at 74.422 56.896 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -775,7 +775,7 @@
 		)
 		(uuid "52925128-141c-439d-a1b5-56b57f2e7df7")
 	)
-	(text "Irrigation Controller"
+	(text "Irrigation Actuator"
 		(exclude_from_sim no)
 		(at 185.674 39.624 0)
 		(effects
@@ -785,9 +785,9 @@
 		)
 		(uuid "56b3d637-20d4-4f5a-8ba4-5f995158497b")
 	)
-	(text "LoRaWAN"
+	(text "LoRa\n"
 		(exclude_from_sim no)
-		(at 103.886 39.878 0)
+		(at 104.14 50.165 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -935,9 +935,9 @@
 		)
 		(uuid "a3184ae9-428c-4b08-8f7e-c93fef7c65d9")
 	)
-	(text "LoRaWAN"
+	(text "LoRa"
 		(exclude_from_sim no)
-		(at 245.171 18.476 0)
+		(at 245.11 29.845 0)
 		(effects
 			(font
 				(size 1.27 1.27)

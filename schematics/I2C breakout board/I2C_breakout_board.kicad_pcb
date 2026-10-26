@@ -51,7 +51,7 @@
 		(capping no)
 		(filling no)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_575555ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -82,9 +82,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "C:/Users/shelj/Downloads/gerber_i2cboard/")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -1013,8 +1013,8 @@
 		(uuid "859e4814-60d5-43ae-8399-ca81be09d85b")
 		(at 149.225 94.2975 180)
 		(tags "AO3401A ")
-		(property "Reference" "U4"
-			(at 0 0 180)
+		(property "Reference" "Q1"
+			(at 2.667 0.0635 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "44146fb2-68ae-49d3-945d-4a8fa0ed554f")
@@ -1439,7 +1439,7 @@
 			(at -0.9525 1.2446 180)
 			(size 0.6096 1.6256)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(J1-Pin_1)")
+			(net "Net-(J4-Pin_1)")
 			(pinfunction "G_1")
 			(pintype "unspecified")
 			(uuid "fb2b59be-af54-4e55-8df3-3d8ed2eafeac")
@@ -1457,7 +1457,7 @@
 			(at 0 -1.2446 180)
 			(size 0.6096 1.6256)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U4-D)")
+			(net "Net-(Q1-D)")
 			(pinfunction "D_3")
 			(pintype "unspecified")
 			(uuid "85b4983c-5e00-48c7-88c4-05081576a1cf")
@@ -1481,7 +1481,7 @@
 		(at 139.0777 101.676)
 		(tags "54602-908LF ")
 		(property "Reference" "J3"
-			(at 4.445 5.004 0)
+			(at -1.1557 -5.156 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f91c888a-35a6-423f-a183-c25dc5224852")
@@ -1493,7 +1493,7 @@
 			)
 		)
 		(property "Value" "54602-908LF"
-			(at 4.445 5.004 0)
+			(at 4.1783 3.988 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "b9665faf-1d6d-44ae-8dcf-9b57abc19db2")
@@ -1762,7 +1762,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U4-D)")
+			(net "Net-(Q1-D)")
 			(pinfunction "7_7")
 			(pintype "unspecified")
 			(uuid "56ec1c27-f9dd-42e9-9295-fa22bf6a3ecd")
@@ -1773,7 +1773,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U4-D)")
+			(net "Net-(Q1-D)")
 			(pinfunction "8_8")
 			(pintype "unspecified")
 			(uuid "fc1e4794-9274-4847-b8c8-92c6ff08b630")
@@ -2342,7 +2342,7 @@
 		(at 137.16 71.12 180)
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 0 2.38 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -2930,7 +2930,7 @@
 			(size 1.2 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.208333)
-			(net "Net-(J1-Pin_1)")
+			(net "Net-(J4-Pin_1)")
 			(pintype "passive")
 			(uuid "a5a16653-098d-43bc-8ae8-5e95ff6a7bf3")
 		)
@@ -2953,7 +2953,7 @@
 		(at 149.86 81.28)
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 0 2.38 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -3235,7 +3235,7 @@
 		(at 149.86 88.9 180)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 0 2.38 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -3449,7 +3449,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J1-Pin_1)")
+			(net "Net-(J4-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "4fa271d7-3e13-4546-af2d-b300211fafcb")
@@ -3473,7 +3473,7 @@
 		(at 137.16 88.9 180)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 0 2.38 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -3687,7 +3687,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(J2-Pin_1-Pad1)")
+			(net "unconnected-(J5-Pin_1-Pad1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "c84264a9-de44-4ee4-ba0f-41e13659209f")
@@ -3777,6 +3777,17 @@
 			(justify left)
 		)
 	)
+	(gr_text "Add I2C\npullups"
+		(at 138.0744 93.1672 0)
+		(layer "F.SilkS")
+		(uuid "d3ef3f1e-14ef-404e-9121-b45adeb10cab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(gr_text "SCL"
 		(at 148.48 71.12 0)
 		(layer "F.SilkS")
@@ -3835,6 +3846,17 @@
 				(thickness 0.1)
 			)
 			(justify right)
+		)
+	)
+	(gr_text "U3\n"
+		(at 140.97 84.836 90)
+		(layer "F.SilkS")
+		(uuid "b36a0bed-54e9-4b52-8584-bc3c24816c3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
 		)
 	)
 	(segment
@@ -4265,7 +4287,7 @@
 		(end 149.86 88.9)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(J1-Pin_1)")
+		(net "Net-(J4-Pin_1)")
 		(uuid "16831653-8cf4-47e5-bf99-1d75adfc1e31")
 	)
 	(segment
@@ -4273,7 +4295,7 @@
 		(end 150.1775 89.2175)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(J1-Pin_1)")
+		(net "Net-(J4-Pin_1)")
 		(uuid "9a97d239-8bd0-4ff6-94a2-4f795b7d0758")
 	)
 	(segment
@@ -4281,7 +4303,7 @@
 		(end 150.86 87.9)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "Net-(J1-Pin_1)")
+		(net "Net-(J4-Pin_1)")
 		(uuid "86c1502e-056c-47c1-90a2-2da7ff58244e")
 	)
 	(segment
@@ -4289,7 +4311,7 @@
 		(end 149.86 88.9)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "Net-(J1-Pin_1)")
+		(net "Net-(J4-Pin_1)")
 		(uuid "bfab6e12-276a-4177-a7ac-3be00b08bfbf")
 	)
 	(segment
@@ -4606,7 +4628,7 @@
 		)
 	)
 	(zone
-		(net "Net-(U4-D)")
+		(net "Net-(Q1-D)")
 		(layer "F.Cu")
 		(uuid "5d5a7c15-abb7-47b6-a5cc-9267bed79bc1")
 		(name "3v3_out")

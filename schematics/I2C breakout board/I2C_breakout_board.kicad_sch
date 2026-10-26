@@ -5841,7 +5841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "533b4cdf-f7a6-4997-a704-846225fbd0fa")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 156.845 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5900,7 +5900,7 @@
 		(instances
 			(project "I2C_breakout_board"
 				(path "/be40f0ea-e108-4aba-ae64-f07137c70a25"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6255,7 +6255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4dd56ac-05ef-4d5d-b2fd-b86869f75ba2")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 160.655 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6326,7 +6326,7 @@
 		(instances
 			(project "I2C_breakout_board"
 				(path "/be40f0ea-e108-4aba-ae64-f07137c70a25"
-					(reference "J4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6344,7 +6344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a920f434-a162-4c78-b5cd-c987a11fdb9c")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 156.845 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6403,7 +6403,7 @@
 		(instances
 			(project "I2C_breakout_board"
 				(path "/be40f0ea-e108-4aba-ae64-f07137c70a25"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6580,7 +6580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd0e11f3-5bbf-4a0a-895d-9227919c78f3")
-		(property "Reference" "U4"
+		(property "Reference" "Q1"
 			(at 194.31 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6647,7 +6647,7 @@
 		(instances
 			(project "I2C_breakout_board"
 				(path "/be40f0ea-e108-4aba-ae64-f07137c70a25"
-					(reference "U4")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -6744,7 +6744,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d965b7ed-8604-48a4-940b-39a56fdd77b6")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 202.946 30.988 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6815,7 +6815,7 @@
 		(instances
 			(project "I2C_breakout_board"
 				(path "/be40f0ea-e108-4aba-ae64-f07137c70a25"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
