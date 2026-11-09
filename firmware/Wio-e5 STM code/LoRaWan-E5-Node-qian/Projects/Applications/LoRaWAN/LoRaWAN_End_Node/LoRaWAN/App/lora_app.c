@@ -38,8 +38,11 @@
 #include "CayenneLpp.h"
 #include "sys_sensors.h"
 
-/* USER CODE BEGIN Includes */
 
+/* USER CODE BEGIN Includes */
+#include <string.h>	//for the testing of USART1
+#include <stdio.h>
+#include "usart.h"
 /* USER CODE END Includes */
 
 /* External variables ---------------------------------------------------------*/
@@ -214,7 +217,17 @@ static UTIL_TIMER_Object_t JoinLedTimer;
 
 /* Exported functions ---------------------------------------------------------*/
 /* USER CODE BEGIN EF */
-
+/****** HELPER FUNCTION FOR SENDIN A THE CONTENTS OF A BUFFER TO USING THE USART1, simply a wrapper function *******/
+//Could maybe use sprintf() to put integers into the buffer as readable chars BEFORE calling the function
+void UART1_Transmit(char *buffer)
+{
+    HAL_UART_Transmit(
+        &huart1,
+        (uint8_t *)buffer,
+        strlen(buffer),
+        HAL_MAX_DELAY
+    );
+}
 /* USER CODE END EF */
 
 void LoRaWAN_Init(void)
@@ -383,9 +396,17 @@ static void OnRxData(LmHandlerAppData_t *appData, LmHandlerRxParams_t *params)
   /* USER CODE END OnRxData_1 */
 }
 
+
+//PUT SENSOR CODE HERE FOR RES-Q-SQUAD
 static void SendTxData(void)
 {
   /* USER CODE BEGIN SendTxData_1 */
+
+	char TESTbuffer[256];
+	sprintf(TESTbuffer, "HELLO??");
+	UART1_Transmit(TESTbuffer);
+
+
   uint16_t pressure = 0;
   int16_t temperature = 0;
   sensor_t sensor_data;
